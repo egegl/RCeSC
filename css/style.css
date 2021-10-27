@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.8;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 188, 188);
+}
+
+h1{
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 230%;
+}
+
+p{
+    margin: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.NavigationBar{
+    background-color: rgb(61, 0, 97);
+    height: 100px;
+}
+
+.NavigationBar ul{
+    display: inline-flex;
+    line-height: 1.3;
+}
+
+.NavigationBar .flex{
+    justify-content: space-between;
+}
+
+.NavigationBar a{
+    font-size: 122%;
+    margin: 0 5px;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+.NavigationBar a:hover{
+    color: hotpink;
+    border-bottom: 2px rgb(255, 213, 234) solid;
+}
+
+.flex{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
